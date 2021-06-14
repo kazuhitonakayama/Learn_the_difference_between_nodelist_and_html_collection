@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Document</title>
+</head>
+<body>
+  <button onclick="addElement()">押下することでpタグが追記されるよ！</button>
+  <p id="collectionCounter"></p>
+  <p>↑これ、増えていってるよね！？これはHTMLcollectionが動的にDOM変化を検知しているしょうこ！
+  </p>
+  <div id="incrementofdivs"></div>
+
+  <button onclick="addElement2()">押下することでpタグが追記されるよ！</button>
+  <p id="nodeListCounter"></p>
+  <p>増えない！querySelectorが静的だから！</p>
+  <div id="incrementofdivs2"></div>
+
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
